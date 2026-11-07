@@ -1,0 +1,105 @@
+rule_id,table,record_id,description
+VR-001,vehicles,131,VIN is NULL
+VR-001,vehicles,160,VIN is NULL
+VR-001,vehicles,377,VIN is NULL
+VR-001,vehicles,627,VIN is NULL
+VR-001,vehicles,720,VIN is NULL
+VR-001,vehicles,826,VIN is NULL
+VR-001,vehicles,894,VIN is NULL
+VR-001,vehicles,1212,VIN is NULL
+VR-001,vehicles,1328,VIN is NULL
+VR-001,vehicles,1376,VIN is NULL
+VR-002,vehicles,17,Duplicate VIN (same as vehicle_id 713)
+VR-002,vehicles,266,Duplicate VIN (same as vehicle_id 1416)
+VR-002,vehicles,294,Duplicate VIN (same as vehicle_id 918)
+VR-002,vehicles,581,Duplicate VIN (same as vehicle_id 32)
+VR-002,vehicles,762,Duplicate VIN (same as vehicle_id 594)
+VR-002,vehicles,998,Duplicate VIN (same as vehicle_id 434)
+VR-002,vehicles,1175,Duplicate VIN (same as vehicle_id 1266)
+VR-002,vehicles,1443,Duplicate VIN (same as vehicle_id 890)
+VR-003,vehicles,179,"VIN length is 15, not 17"
+VR-003,vehicles,288,"VIN length is 18, not 17"
+VR-003,vehicles,437,"VIN length is 16, not 17"
+VR-003,vehicles,464,"VIN length is 15, not 17"
+VR-003,vehicles,482,"VIN length is 10, not 17"
+VR-003,vehicles,489,"VIN length is 18, not 17"
+VR-003,vehicles,632,"VIN length is 10, not 17"
+VR-003,vehicles,1144,"VIN length is 16, not 17"
+VR-003,vehicles,1346,"VIN length is 18, not 17"
+VR-003,vehicles,1488,"VIN length is 15, not 17"
+VR-004,registrations,22,Orphan vehicle_id 94679
+VR-004,registrations,123,Orphan vehicle_id 94938
+VR-004,registrations,241,Orphan vehicle_id 96606
+VR-004,registrations,404,Orphan vehicle_id 92133
+VR-004,registrations,492,Orphan vehicle_id 92978
+VR-004,registrations,660,Orphan vehicle_id 92912
+VR-004,registrations,756,Orphan vehicle_id 95552
+VR-004,registrations,821,Orphan vehicle_id 98810
+VR-004,registrations,1014,Orphan vehicle_id 93444
+VR-004,registrations,1057,Orphan vehicle_id 98347
+VR-004,registrations,1194,Orphan vehicle_id 96591
+VR-004,registrations,1326,Orphan vehicle_id 94953
+VR-005,registrations,102,expiration_date before issue_date
+VR-005,registrations,137,expiration_date before issue_date
+VR-005,registrations,141,expiration_date before issue_date
+VR-005,registrations,536,expiration_date before issue_date
+VR-005,registrations,579,expiration_date before issue_date
+VR-005,registrations,637,expiration_date before issue_date
+VR-005,registrations,1035,expiration_date before issue_date
+VR-005,registrations,1099,expiration_date before issue_date
+VR-005,registrations,1303,expiration_date before issue_date
+VR-005,registrations,1313,expiration_date before issue_date
+VR-006,owners,105,Invalid state_code 'QQ'
+VR-006,owners,249,Invalid state_code 'ZZ'
+VR-006,owners,529,Invalid state_code 'QQ'
+VR-006,owners,650,Invalid state_code '99'
+VR-006,owners,656,Invalid state_code '99'
+VR-006,owners,658,Invalid state_code 'QQ'
+VR-006,owners,823,Invalid state_code 'XX'
+VR-006,owners,850,Invalid state_code 'ZZ'
+VR-007,vehicles,142,Implausible model_year 1950
+VR-007,vehicles,692,Implausible model_year 2099
+VR-007,vehicles,1100,Implausible model_year 1899
+VR-007,vehicles,1210,Implausible model_year 2099
+VR-007,vehicles,1260,Implausible model_year 1899
+VR-007,vehicles,1498,Implausible model_year 2035
+VR-008,registrations,248,fee_paid invalid (-112.27)
+VR-008,registrations,253,fee_paid invalid (None)
+VR-008,registrations,604,fee_paid invalid (-130.94)
+VR-008,registrations,653,fee_paid invalid (None)
+VR-008,registrations,838,fee_paid invalid (-49.85)
+VR-008,registrations,969,fee_paid invalid (-136.52)
+VR-008,registrations,1136,fee_paid invalid (None)
+VR-008,registrations,1137,fee_paid invalid (-94.01)
+VR-009,registrations,109,issue_date is before the vehicle's purchase_date
+VR-009,registrations,429,issue_date is before the vehicle's purchase_date
+VR-009,registrations,483,issue_date is before the vehicle's purchase_date
+VR-009,registrations,577,issue_date is before the vehicle's purchase_date
+VR-009,registrations,643,issue_date is before the vehicle's purchase_date
+VR-009,registrations,816,issue_date is before the vehicle's purchase_date
+VR-009,registrations,850,issue_date is before the vehicle's purchase_date
+VR-009,registrations,895,issue_date is before the vehicle's purchase_date
+VR-009,registrations,924,issue_date is before the vehicle's purchase_date
+VR-009,registrations,1271,issue_date is before the vehicle's purchase_date
+VR-010,registrations,611,Duplicate plate in state (same as registration_id 794)
+VR-010,registrations,618,Duplicate plate in state (same as registration_id 1464)
+VR-010,registrations,886,Duplicate plate in state (same as registration_id 267)
+VR-010,registrations,931,Duplicate plate in state (same as registration_id 983)
+VR-010,registrations,1100,Duplicate plate in state (same as registration_id 497)
+VR-010,registrations,1248,Duplicate plate in state (same as registration_id 1483)
+VR-011,owners,286,Invalid zip_code '12-345'
+VR-011,owners,346,Invalid zip_code '12-345'
+VR-011,owners,363,Invalid zip_code '12-345'
+VR-011,owners,646,Invalid zip_code '1234'
+VR-011,owners,653,Invalid zip_code '12-345'
+VR-011,owners,792,Invalid zip_code '12-345'
+VR-011,owners,817,Invalid zip_code '123456'
+VR-011,owners,904,Invalid zip_code '1234'
+VR-012,registrations,144,Orphan owner_id 90377
+VR-012,registrations,427,Orphan owner_id 90422
+VR-012,registrations,581,Orphan owner_id 95848
+VR-012,registrations,778,Orphan owner_id 98140
+VR-012,registrations,922,Orphan owner_id 98505
+VR-012,registrations,954,Orphan owner_id 97528
+VR-012,registrations,1201,Orphan owner_id 95675
+VR-012,registrations,1469,Orphan owner_id 99034
